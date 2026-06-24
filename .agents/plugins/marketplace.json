@@ -1,0 +1,20 @@
+{
+  "name": "blobit-cli-skill-pack",
+  "interface": {
+    "displayName": "Blobit CLI Skill Pack"
+  },
+  "plugins": [
+    {
+      "name": "blobit-cli-skill-pack",
+      "source": {
+        "source": "local",
+        "path": "./plugins/blobit-cli-skill-pack"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

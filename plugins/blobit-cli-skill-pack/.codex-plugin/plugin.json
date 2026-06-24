@@ -1,0 +1,25 @@
+{
+  "name": "blobit-cli-skill-pack",
+  "version": "0.1.0",
+  "description": "Codex skills for Blobit CLI game asset workflows.",
+  "author": {
+    "name": "3dMVP",
+    "url": "https://github.com/3dMVP"
+  },
+  "homepage": "https://github.com/3dMVP/blobit-cli-skill-pack",
+  "repository": "https://github.com/3dMVP/blobit-cli-skill-pack",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Blobit CLI Skill Pack",
+    "shortDescription": "Blobit CLI assets and Babylon game workflows",
+    "longDescription": "Codex skills for using the Blobit CLI and SDK as the generated asset backend for browser games, with Godogen-derived planning, review gates, Babylon architecture, and browser proof workflows.",
+    "developerName": "3dMVP",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://github.com/3dMVP/blobit-cli-skill-pack",
+    "defaultPrompt": [
+      "Use $blobit-cli to build a browser game with Blobit assets.",
+      "Use $blobit-cli to publish assets and load them with the SDK."
+    ]
+  }
+}
