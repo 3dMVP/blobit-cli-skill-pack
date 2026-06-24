@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blobit CLI"
+  short_description: "Use Blobit CLI and SDK for 3D assets, scenes, publishing, and browser game workflows"
+  default_prompt: "Use $blobit-cli to plan and build a browser game with Blobit-generated assets, then validate the scene or game from runtime evidence."

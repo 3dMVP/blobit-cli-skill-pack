@@ -1,0 +1,7 @@
+interface:
+  display_name: "Babylon Help"
+  short_description: "Babylon.js APIs, loaders, Vite, and WebGL"
+  default_prompt: "Use $babylon-help for Babylon.js, Vite, WebGL, loader, or browser-capture questions."
+
+policy:
+  allow_implicit_invocation: false
